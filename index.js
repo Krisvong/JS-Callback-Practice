@@ -6,6 +6,8 @@ let direction = null;
 let x = 100;
 let y = 250;
 
+setInterval (function () { 
+
 if(direction === 'west') {
     x = x -1
 }
@@ -24,6 +26,9 @@ if(direction === 'south'){
 
 character.style.left = x + 'px'
 character.style.bottom = y + 'px'
+}, 1)
+
+// setInterval(moveCharacter, 1)
 
 move(character).to(100, 250)
 
