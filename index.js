@@ -22,6 +22,7 @@ if(direction === 'south') {
 }
 }
 move(character).withArrowKeys(100, 250, handleDirectionChange)
+
 // let direction = null;
 // let x = 100;
 // let y = 250;
